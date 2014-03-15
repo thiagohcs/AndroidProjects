@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QuestaoDoisActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/QuestaoDois"
+        android:layout_centerVertical="true" >
+
+        <RadioButton
+            android:id="@+id/OpcaoUmQuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/opcaoUmQuestaoDois"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoDoisQuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoDoisQuestaoDois"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoTresQuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoTresQuestaoDois"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoQuatroQuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoQuatroQuestaoDois"
+            android:textSize="10pt" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/QuestaoDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroupQ2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/QuestaoDois"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonConfirmaQuestaoUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroupQ2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/ConfirmaQuestao"
+        android:textSize="9pt" />
+
+</RelativeLayout>

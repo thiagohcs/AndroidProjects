@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QuestaoCincoActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonConfirmaQuestaoUm"
+        android:layout_marginBottom="63dp"
+        android:layout_toLeftOf="@+id/buttonConfirmaQuestaoUm" >
+
+        <RadioButton
+            android:id="@+id/OpcaoUmQuestaoCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/opcaoUmQuestaoCinco"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoDoisQuestaoCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoDoisQuestaoCinco"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoTresQuestaoCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoTresQuestaoCinco"
+            android:textSize="10pt" />
+
+        <RadioButton
+            android:id="@+id/OpcaoQuatroQuestaoCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opcaoQuatroQuestaoCinco"
+            android:textSize="10pt" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonConfirmaQuestaoUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="@string/ConfirmaQuestao"
+        android:textSize="9pt" />
+
+    <TextView
+        android:id="@+id/QuestaoCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroupQ5"
+        android:layout_alignRight="@+id/buttonConfirmaQuestaoUm"
+        android:layout_marginBottom="33dp"
+        android:text="@string/QuestaoCinco"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+</RelativeLayout>

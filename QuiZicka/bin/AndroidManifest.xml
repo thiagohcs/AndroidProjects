@@ -22,6 +22,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.QuestaoUmActivity"
+            android:label="@string/title_activity_questao_um" >
+        </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.QuestaoDoisActivity"
+            android:label="@string/title_activity_questao_dois" >
+        </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.QuestaoTresActivity"
+            android:label="@string/title_activity_questao_tres" >
+        </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.QuestaoQuatroActivity"
+            android:label="@string/title_activity_questao_quatro" >
+        </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.QuestaoCincoActivity"
+            android:label="@string/title_activity_questao_cinco" >
+        </activity>
+        <activity
+            android:name="br.com.aeso.quizicka.EndActivity"
+            android:label="@string/title_activity_end" >
+        </activity>
     </application>
 
 </manifest>
