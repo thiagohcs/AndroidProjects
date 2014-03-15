@@ -21,10 +21,10 @@
     <string name="opcaoQuatroQuestaoDois">Microsoft</string>
     <string name="title_activity_questao_tres">QuestaoTresActivity</string>
     <string name="QuestaoTres">Em qual país possui a conexão mais rápida de internet?</string>
-    <string name="opcaoUmQuestaoTres">op1</string>
-    <string name="opcaoDoisQuestaoTres">op2</string>
-    <string name="opcaoTresQuestaoTres">op3</string>
-    <string name="opcaoQuatroQuestaoTres">op4</string>
+    <string name="opcaoUmQuestaoTres">EUA</string>
+    <string name="opcaoDoisQuestaoTres">Brasil</string>
+    <string name="opcaoTresQuestaoTres">Hon Kong</string>
+    <string name="opcaoQuatroQuestaoTres">Suiça</string>
     <string name="title_activity_questao_quatro">QuestaoQuatroActivity</string>
     <string name="QuestaoQuatro">Questão 4</string>
     <string name="opcaoUmQuestaoQuatro">op1</string>
