@@ -26,11 +26,11 @@
     <string name="opcaoTresQuestaoTres">Hon Kong</string>
     <string name="opcaoQuatroQuestaoTres">China</string>
     <string name="title_activity_questao_quatro">QuestaoQuatroActivity</string>
-    <string name="QuestaoQuatro">Questão 4</string>
-    <string name="opcaoUmQuestaoQuatro">op1</string>
-    <string name="opcaoDoisQuestaoQuatro">op2</string>
-    <string name="opcaoTresQuestaoQuatro">op3</string>
-    <string name="opcaoQuatroQuestaoQuatro">op4</string>
+    <string name="QuestaoQuatro">Em qual cidade nasceu o frevo?</string>
+    <string name="opcaoUmQuestaoQuatro">Paulista</string>
+    <string name="opcaoDoisQuestaoQuatro">Olinda</string>
+    <string name="opcaoTresQuestaoQuatro">Paudalho</string>
+    <string name="opcaoQuatroQuestaoQuatro">Recife</string>
     <string name="title_activity_questao_cinco">QuestaoCincoActivity</string>
     <string name="QuestaoCinco">Questão 5</string>
     <string name="opcaoUmQuestaoCinco">op1</string>
